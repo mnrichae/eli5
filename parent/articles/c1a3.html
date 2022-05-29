@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELi5 Article 3</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!--navigation bar-->
+        <div class="header row m-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="headernav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../../index.html" id="logo">ELi5</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Menu_items-->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!--Submenu-->
+                        <div class="col-md-9">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Tutorials
+                                    </a>
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dd dropdown-item text-white" href="../../teacher/tcorner.html">Teacher</a></li>
+                                        <li><a class="dd dropdown-item text-white" href="../../student/scorner.html">Student</a></li>
+                                        <li><a class="dd dropdown-item text-white" href="../pcorner.html">Parent</a></li>
+                                    </ul>
+                                </li>
+                                    
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../../about/about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Register Now</a>
+                                </li>
+                                </ul>
+                        </div>
+                        <!--Social Media Links-->
+                        <div class="socmedcontainer col-md-3">
+                            <ul class="socmed navbar-nav justify-content-around">
+                                <li class="nav-item" id="fb">
+                                    <a class="nav-link" aria-current="page" href="#"><i class="socmedicon bi bi-facebook"></i></a>
+                                </li>
+                                <li class="nav-item" id="ig">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-instagram"></i></a>
+                                </li>
+                                <li class="nav-item" id="tt">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-twitter"></i></a>
+                                </li>
+                                <li class="nav-item" id="tk">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-tiktok"></i></a>
+                                </li>
+                                <li class="nav-item" id="yt">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--end of navigation bar-->
+        </div>
+        <!--end of header-->
+        
+        
+        <!--search bar for articles-->
+        <div class="row searcharticle bg-black">
+            <form class="d-flex nav-link align-middle p-0 mx- my-0" role="search" autocomplete="off" >
+                <input class="form-control me-2 my-1" type="search" placeholder="Search" id="searcharticle"></span>
+                <i class="fs-4 bi-search my-1"></i>
+            </form> 
+        </div>
+
+        <!--content-->
+        <div class="content row flex-nowrap pt-5 mt-5 mb-5">
+            <!--sidebar-->
+            <div class="sdbar col-auto col-md-3 col-xl-2 px-sm-2 px-0 overflow-auto  mt-1 pt-1">
+                <div class="d-flex flex-column align-items-center align-items-sm-start justify-content-start px-3 pt-2 text-white min-vh-100">
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start justify-content-center" id="menu">
+
+                        <li class="nav-item">
+                            <a href="../pcorner.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house" ></i> <span class="sbitem ms-1 d-none d-sm-inline">Parent's Corner</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle sbicon">
+                                <i class="fs-4 bi-person"></i> <span class="sbitem ms-1 d-none d-sm-inline bg">Category 1</span> </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="c1a1.html" class="sbitem nav-link px-0 text-white">Article 1 </a>
+                                </li>
+                                <li>
+                                    <a href="c1a2.html" class="sbitem nav-link px-0 text-white">Article 2 </a> 
+                                </li>
+                                <li>
+                                    <a href="" class="sbitem nav-link px-0 text-white" id="txtfocus">Article 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle sbicon">
+                                <i class="fs-4 bi-lightbulb"></i> <span class="ms-1 d-none d-sm-inline">Category 2</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="c2a1.html" class="sbitem nav-link px-0 text-white">Article 1 </a>
+                                </li>
+                                <li>
+                                    <a href="c2a2.html" class="sbitem nav-link px-0 text-white">Article 2 </a>
+                                </li>
+                                <li>
+                                    <a href="c2a3.html" class="sbitemnav-link px-0 text-white">Article 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle sbicon">
+                                <i class="fs-4 bi-heart"></i> <span class="sbitem ms-1 d-none d-sm-inline">Category 3</span> </a>
+                            <ul class="collapse  nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="c3a1.html" class="sbitem nav-link px-0 text-white">Article 1 </a>
+                                </li>
+                                <li>
+                                    <a href="c3a2.html" class="sbitem nav-link px-0 text-white">Article 2 </a>
+                                </li>
+                                <li>
+                                    <a href="c3a3.html" class="sbitem nav-link px-0 text-white">Article 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+
+            <!--article-->
+            <div class="article col-lg-10 overflow-auto">
+                <!--title-->
+                <div class="row ms-1 ps-2">
+                    <h5><span class="badge bg-secondary">Category 1</span></h5>
+                    <h2 class="text-white ms-1 p-2">
+                        Article 3
+                    </h2>
+                </div>
+                <!--end of title-->
+
+                <!--main photo-->
+                <div class="row ms-1 me-3 p-2 my-0 afeatured">
+                    <img src="../media/c1a3.jpeg" alt="" id="mainphoto">
+                </div>
+                <!--end of main photo-->
+
+                <!--author-->
+                 <div class="row ms-1 ps-2 mt-0 pt-1">
+                    <img src="../media/author3.jpg" class="img-fluid w-1" id="authorpic">
+                    <p class="my-0 py-0 text-white">
+                        Amber H.
+                        <a href="" class="afollow"><i class="bi bi-info-circle-fill ifollow"></i></a>
+                    </p>
+                    <p class="my-0 py-0 text-white">Published December 30, 2020 PHT</p>
+                </div>
+                <!--end of author-->
+
+                
+                <!--article-->
+                <div class="courseflow row ms-3 me-3 p-2 my-5">
+                    <!--part 1 article-->
+                    <p class="row text-white">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut libero tenetur laudantium ex quod quos, quasi nostrum neque doloremque ad amet debitis qui id. Sed ex placeat odio ducimus obcaecati!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A blanditiis pariatur natus ex magnam dolorum reprehenderit dolore fugiat excepturi vel, explicabo corporis amet totam sequi facere porro, doloribus alias consequuntur.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, officia commodi, sapiente quae exercitationem ea ullam ipsum dolorem cum, facere quam labore nihil doloremque qui cumque earum ut atque tempora.
+                    </p>
+                    <!--poll-->
+                    <p class="text-white">
+                        <h3 class="text-white px-0 d-flex justify-content-center">
+                            How do you feel about Article 3 concept?
+                        </h3>
+                        <div class="row p-5">
+                            <div class="col-lg-6">
+                                <div class="d-flex">
+                                    <button type="button" class="btn choice1 mt-2">Choice 1</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="d-flex divchoice2">
+                                    <button type="button" class="btn choice2 mt-2">Choice 2</button>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                    <!--part 2 article-->
+                    <p class="row text-white">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut libero tenetur laudantium ex quod quos, quasi nostrum neque doloremque ad amet debitis qui id. Sed ex placeat odio ducimus obcaecati!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A blanditiis pariatur natus ex magnam dolorum reprehenderit dolore fugiat excepturi vel, explicabo corporis amet totam sequi facere porro, doloribus alias consequuntur.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, officia commodi, sapiente quae exercitationem ea ullam ipsum dolorem cum, facere quam labore nihil doloremque qui cumque earum ut atque tempora.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci doloremque magni veritatis ut laborum sapiente modi, itaque dolorem consequuntur minus, aliquam inventore voluptate ea labore deserunt non quisquam saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium architecto aperiam, incidunt ut assumenda fuga inventore ducimus iure, beatae nostrum voluptate possimus tempora? Nam aspernatur inventore at quos recusandae?
+                    </p>
+                    <p class="d-flex justify-content-center">
+                        <iframe width="950" height="534" src="https://www.youtube.com/embed/nhAR2-WIM-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+                    <!--part 3 article-->
+                    <p class="row text-white">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut libero tenetur laudantium ex quod quos, quasi nostrum neque doloremque ad amet debitis qui id. Sed ex placeat odio ducimus obcaecati!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A blanditiis pariatur natus ex magnam dolorum reprehenderit dolore fugiat excepturi vel, explicabo corporis amet totam sequi facere porro, doloribus alias consequuntur.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, officia commodi, sapiente quae exercitationem ea ullam ipsum dolorem cum, facere quam labore nihil doloremque qui cumque earum ut atque tempora.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis adipisci doloremque magni veritatis ut laborum sapiente modi, itaque dolorem consequuntur minus, aliquam inventore voluptate ea labore deserunt non quisquam saepe.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium architecto aperiam, incidunt ut assumenda fuga inventore ducimus iure, beatae nostrum voluptate possimus tempora? Nam aspernatur inventore at quos recusandae?
+                    </p>
+
+                    <!--related articles-->
+                    <div class="row">
+                        <div class="row">
+                            <h3 class="text-white">Related Articles</h3>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <!--related 1-->
+                            <div class="card" style="width: 18rem;">
+                                <a href="c2a1.html">
+                                    <img src="../media/c2a1.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text text-dark">Art. 1<br> 
+                                        <span class="text-secondary">See more...</span>
+                                    </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--related 2-->
+                            <div class="card" style="width: 18rem;">
+                                <a href="c1a2.html">
+                                    <img src="../media/c1a2.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text text-dark">Art. 2<br> 
+                                        <span class="text-secondary">See more...</span>
+                                    </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <!--related 3-->
+                            <div class="card" style="width: 18rem;">
+                                <a href="c3a1.html">
+                                    <img src="../media/c3a1.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                    <p class="card-text text-dark">Art. 1<br> 
+                                        <span class="text-secondary">See more...</span>
+                                    </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of related article-->
+
+                    <!--enroll now-->
+                    <div class="row my-5">
+                        <div class="d-flex flex-column align-items-center">
+                            <h3 class="text-white">Need professional help?</h3>
+                            <a href="" class="btnenroll btn btn-outline-light m-3 btn-md p-">Enroll Now</a>
+                        </div>
+                    </div>
+                    <!--end of enroll now-->
+                </div>
+                <!--end of article-->
+
+                <!--footer-->
+                <div class="footer row" id="footerpage">
+                    <footer class="text-center text-white">
+                        <div class="text-center p-1">
+                        © 2022 Copyright:
+                        <img src="../../media/logo-rio.png" alt="" class="logo-rio">
+                        <a class="text-white" href="" id="footername">Tutorial Business</a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!--end of article-->
+        </div>
+
+
+        
+        
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

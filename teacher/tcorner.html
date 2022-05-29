@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELi5 Teacher's Corner</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!--navigation bar-->
+        <div class="header row m-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="headernav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html" id="logo">ELi5</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Menu_items-->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!--Submenu-->
+                        <div class="col-md-9">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Tutorials
+                                    </a>
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dd dropdown-item text-white" href="teacher/tcorner.html">Teacher</a></li>
+                                        <li><a class="dd dropdown-item text-white" href="#">Student</a></li>
+                                        <li><a class="dd dropdown-item text-white" href="#">Parent</a></li>
+                                    </ul>
+                                </li>
+                                    
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Register Now</a>
+                                </li>
+                                </ul>
+                        </div>
+                        <!--Social Media Links-->
+                        <div class="socmedcontainer col-md-3">
+                            <ul class="socmed navbar-nav justify-content-around">
+                                <li class="nav-item" id="fb">
+                                    <a class="nav-link" aria-current="page" href="#"><i class="socmedicon bi bi-facebook"></i></a>
+                                </li>
+                                <li class="nav-item" id="ig">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-instagram"></i></a>
+                                </li>
+                                <li class="nav-item" id="tt">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-twitter"></i></a>
+                                </li>
+                                <li class="nav-item" id="tk">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-tiktok"></i></a>
+                                </li>
+                                <li class="nav-item" id="yt">
+                                    <a class="nav-link" href="#"><i class="socmedicon bi bi-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--end of navigation bar-->
+        </div>
+        <!--end of header-->
+        
+        
+        <!--search bar for articles-->
+        <div class="row searcharticle bg-black">
+            <form class="d-flex nav-link align-middle p-0 mx- my-0" role="search" autocomplete="off" >
+                <input class="form-control me-2 my-1" type="search" placeholder="Search" id="searcharticle"></span>
+                <i class="fs-4 bi-search my-1"></i>
+            </form> 
+        </div>
+
+        <!--content-->
+        <div class="content row flex-nowrap pt-5 mt-5 mb-5">
+            <!--sidebar-->
+            <div class="sdbar col-auto col-md-3 col-xl-2 px-sm-2 px-0 overflow-auto  mt-1 pt-1">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a href="tcorner.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house" id="ifocus"></i> <span class="sbitem ms-1 d-none d-sm-inline" id="txtfocus">Teacher's Corner</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-person"></i> <span class="sbitem ms-1 d-none d-sm-inline">Category 1</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="articles/c1a1.html" class="sbitem nav-link px-0 text-white">Article 1 </a>
+                                </li>
+                                <li>
+                                    <a href="articles/c1a2.html" class="sbitem nav-link px-0 text-white">Article 2 </a>
+                                </li>
+                                <li>
+                                    <a href="articles/c1a3.html" class="sbitem nav-link px-0 text-white">Article 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-lightbulb"></i> <span class="ms-1 d-none d-sm-inline">Category 2</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="articles/c2a1.html" class="sbitem nav-link px-0 text-white">Article 1 </a>
+                                </li>
+                                <li>
+                                    <a href="articles/c2a2.html" class="sbitem nav-link px-0 text-white">Article 2 </a>
+                                </li>
+                                <li>
+                                    <a href="articles/c2a3.html" class="sbitemnav-link px-0 text-white">Article 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-heart"></i> <span class="sbitem ms-1 d-none d-sm-inline">Category 3</span> </a>
+                            <ul class="collapse  nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="articles/c3a1.html" class="sbitem nav-link px-0 text-white">Article 1 </a>
+                                </li>
+                                <li>
+                                    <a href="articles/c3a2.html" class="sbitem nav-link px-0 text-white">Article 2 </a>
+                                </li>
+                                <li>
+                                    <a href="articles/c3a3.html" class="sbitem nav-link px-0 text-white">Article 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+
+            <!--article-->
+            <div class="article col-lg-10 overflow-auto">
+                <!--Featured-->
+                <div class="row ms-1 p-2">
+                    <h2 class="text-white ms-1 p-2">
+                        Featured
+                    </h2>
+                </div>
+                <div class="afeatured row ms-1 me-3 p-2">
+                    <!--carousel-->
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="media/c1a2.jpeg" class="d-block w-100 fpic1" alt="...">
+                            <div class="carousel-caption d-none d-md-block fcaption1">
+                              <h5>Article 2</h5>
+                              <p>Some representative placeholder content for the second slide. <a href="c1a2.html" class="af1">See more...</a></p>
+                              <p></p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="media/c2a1.jpeg" class="d-block w-100 fpic2" alt="...">
+                            <div class="carousel-caption d-none d-md-block fcaption2">
+                              <h5>Article 1</h5>
+                              <p>Some representative placeholder content for the second slide. <a href="c2a1.html" class="af1">See more...</a></p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="media/c1a3.jpeg" class="d-block w-100 fpic3" alt="...">
+                            <div class="carousel-caption d-none d-md-block fcaption3">
+                              <h5>Article 3</h5>
+                              <p>Some representative placeholder content for the third slide. <a href="" class="af1">See more...</a></p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    <!--end of carousel-->
+                </div>
+                <!--end of featured-->
+                
+                <!--course flow-->
+                <div class="courseflow row ms-1 me-3 p-2 mb-5">
+                    <div class="row">
+                        <h4 class="text-white">
+                            To be a <span style="color: #A3F4F6";>great teacher</span>, follow the subjects below in the following order:
+                        </h4>
+                    </div>
+                    <!--cards-->
+                    <div class="row cards p-5">
+                        <div class="col-sm-4 d-flex justify-content-end" id="card1">
+                            <div class="card m-1" style="width: 18rem;">
+                                <img src="media/tcat1.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Category 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="articles/c1a1.html" class="btn btnart1">Start with Article 1</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-end card2" id="card2">
+                            <div class="card m-1" style="width: 18rem;">
+                                <img src="media/tcat2.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Category 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btnart1">Start with Article 1</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-end card3" id="card3">
+                            <div class="card m-1" style="width: 18rem;">
+                                <img src="media/tcat3.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Category 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn  btnart1">Start with Article 1</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of cards-->
+                </div>
+                <!--end of course flow-->
+
+                <!--footer-->
+                <div class="footer row" id="footerpage">
+                    <footer class="text-center text-white bg-dark">
+                        <div class="text-center p-1">
+                        © 2022 Copyright:
+                        <img src="../media/logo-rio.png" alt="" class="logo-rio">
+                        <a class="text-white" href="" id="footername">Tutorial Business</a>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!--end of article-->
+        </div>
+
+
+        
+        
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

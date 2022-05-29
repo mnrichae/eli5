@@ -186,9 +186,13 @@ span{
 }
 
 @media screen and (max-width: 991px) {
+
+    
+    
     form{
         margin: 0;
         padding: 0;
+        background-color: #121212 !important;
     }
 
     #searcharticle{
@@ -209,6 +213,14 @@ span{
     position: sticky;
     width: 20%;
     top: 100px;
+    
+}
+
+@media screen and (max-width: 991px){
+    .sbicon{
+        display: flex;
+        justify-content: center;
+    }
     
 }
 
@@ -312,8 +324,8 @@ span{
 }
 
 #authorpic{
-    height: 8%;
-    width: 8%;
+    width: auto;
+    height: 10vh;
     border-radius: 50%;
 }
 
@@ -348,8 +360,35 @@ span{
     border-radius: 20px;
 }
 
-
 /*end of content css*/
+
+/*about*/
+
+.aboutphoto{
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
+
+.aboutauthors, .aboutbrand, .abouttc {
+    color: #A3F4F6;
+}
+
+.aboutauthor1,
+.aboutauthor2,
+.aboutauthor3 {
+    width: 60%;
+    border-radius: 50%;
+}
+
+
+.aboutbtn:hover, .aboutbtn:active, .aboutbtn:focus{
+    background-color: #A3F4F6;
+    color: #121212;
+    border: 1px solid #A3F4F6;
+}
+
+
 
 /*footer*/
 footer{
@@ -359,6 +398,10 @@ footer{
     color: white;
     text-align: center;
     width: 100%;
+}
+
+#footername:hover, #footername:active, #footername:focus{
+    color:#A3F4F6;
 }
 
     .logo-rio{

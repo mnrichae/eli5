@@ -67,9 +67,9 @@ span{
     }
 
     @media screen and (max-width: 991px){
-        .nav-link{
+        /* .nav-link{
             background-color: aliceblue;
-        }
+        } */
     }
 
     #logo{
